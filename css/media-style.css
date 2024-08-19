@@ -1,0 +1,132 @@
+/* Media Query */
+/* Extra small devices (phones, kurang dari 600px) */
+@media screen and (max-width: 599px) {
+    body {
+        font-size: 14px;
+    }
+  
+    /* .navbar {
+        font-size: 12px;
+    } */
+  
+    /* Hero section */
+    #hero {
+        background-size: cover; 
+    }
+    .Sekolah-Dasar-Islam-Terpadu {
+        padding-top: 25px;
+        font-size: 20x;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .Zata-Amani-Islamic-School {
+        font-size: 38px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .tagl {
+        font-size: 15px;
+        font-weight: 400;  
+        text-align: center; 
+    }
+
+    .hero-tagline
+    {
+        height: 30vh;
+    }
+
+    .card-style[for="chero"] {
+        background-size: contain no-repeat center;     
+    }      
+    
+    .description p {   
+        font-size: 10px;  
+    }
+
+    .description h4 {
+        font-size: 12px;
+    }
+      
+    .card-style>.row-style>.icon-style00 
+    {
+        width: 20px;
+    }
+
+    .card-style>.row-style>.icon-style 
+    {
+        width: 20px;
+        height: 20px;
+        margin: 6px;
+        /* display: none; */
+    }
+    .card-style>.row-style>.description {
+        height: 65px;
+    
+    }
+      
+    .row-hero-1 {
+        height: 20vh;
+    }
+    
+    .row-hero-2 {
+        height: 45vh;
+        margin-top: 100px;
+    }
+
+    
+    /* End Hero Section */
+
+  }
+  
+  /* Small devices (portrait tablets dan phones, antara 600px dan 767px) */
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+  
+    .navbar {
+        font-size: 13px;
+    }
+  
+    #hero {
+        background-size: cover;
+    }
+  }
+  
+  /* Medium devices (landscape tablets dan small laptops, antara 768px dan 991px) */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+  
+    .navbar {
+        font-size: 14px;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, antara 992px dan 1199px) */
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 17px;
+    }
+  
+    .navbar {
+        font-size: 15px;
+    }
+  }
+  
+  /* Extra large devices (large laptops dan desktops, 1200px ke atas) */
+  @media screen and (min-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+  
+    .navbar {
+        font-size: 16px;
+    }
+  }
+  
+  
+  /* End Media Query */
